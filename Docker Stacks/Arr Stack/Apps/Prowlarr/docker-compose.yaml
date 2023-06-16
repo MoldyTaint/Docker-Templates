@@ -1,0 +1,14 @@
+services:
+  prowlarr:
+    container_name: Prowlarr
+    image: lscr.io/linuxserver/prowlarr:latest
+    ports:
+      - "YOURPORT:9696" #EDIT THIS
+    environment:
+      - PUID=USERIDHERE #EDIT THIS
+      - PGID=GROUPIDHERE #EDIT THIS
+      - UMASK=002
+      - TZ=Etc/UTC
+    volumes:
+      - ./Config:/config
+    restart: unless-stopped

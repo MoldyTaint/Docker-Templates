@@ -1,0 +1,15 @@
+services:
+  sonarr:
+    container_name: Sonarr
+    image: cr.hotio.dev/hotio/sonarr
+    ports:
+      - "PORTHERE:8989" #EDIT THIS
+    environment:
+      - PUID=USERIDHERE #EDIT THIS
+      - PGID=GROUPIDHERE #EDIT THIS
+      - UMASK=002
+      - TZ=Etc/UTC
+    volumes:
+      - ./Config:/config
+      - PATHTOFILES:/Streaming #EDIT THIS - FURTHER NOTES TO READ/INCLUDE
+    restart: unless-stopped

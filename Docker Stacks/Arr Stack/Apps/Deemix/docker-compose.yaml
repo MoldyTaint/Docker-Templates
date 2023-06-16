@@ -1,0 +1,15 @@
+services:
+  deemix:
+    container_name: Deemix
+    image: registry.gitlab.com/bockiii/deemix-docker
+    ports:
+      - "YOURPORT:6595" #EDIT HERE
+    environment:
+      - PUID=USERIDHERE #EDIT HERE
+      - PGID=GROUPIDHERE #EDIT HERE
+      - UMASK_SET=022
+      - DEEMIX_SINGLE_USER=true
+    volumes:
+      - ./Config:/config
+      - PATHTODOWNLOADS:/downloads #EDIT HERE
+    restart: unless-stopped

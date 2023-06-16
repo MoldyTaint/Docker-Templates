@@ -1,0 +1,35 @@
+networks:
+  default:
+      name: YOURNETWORKHERE
+      external: true
+
+services:
+  radarr:
+    # Include the Radarr Docker Compose file
+    extends:
+      file: ./Apps/Radarr/docker-compose.yaml
+      service: radarr
+
+  sonarr:
+    # Include the Sonarr Docker Compose file
+    extends:
+      file: ./Apps/Sonarr/docker-compose.yaml
+      service: sonarr
+
+  prowlarr:
+    # Include the Prowlarr Docker Compose file
+    extends:
+      file: ./Apps/Prowlarr/docker-compose.yaml
+      service: prowlarr
+
+  unpackerr:
+    # Include the Unpackerr Docker Compose file
+    extends:
+      file: ./Apps/Unpackerr/docker-compose.yaml
+      service: unpackerr
+
+  deemix:
+    # Include the Unpackerr Docker Compose file
+    extends:
+      file: ./Apps/Deemix/docker-compose.yaml
+      service: deemix
