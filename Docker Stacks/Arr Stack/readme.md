@@ -6,6 +6,7 @@ In order to have this stack work proporly, there needs to be a set file structur
 
 This is how the directory should be set up. 
 
+```
 /Pathtoprefereddirectory
  -> Media
     -> Management
@@ -26,6 +27,6 @@ This is how the directory should be set up.
             -> Unpackerr    
                 -> docker-compose.yaml
                 -> Configs
-
+```
 At this step, we should have created a folder called "Media" somewhere on our ZPool, Harddisk, or wherever you would want these to live/stay.
 
