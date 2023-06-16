@@ -1,8 +1,17 @@
-This will be the guide/how to for help setting up this docker compose/stack
+## Welcome to the Docker Compose Stack Setup Guide
 
-In this compose file, we have a few things at play here. We have a main "DOCKER COMPOSE" file which links back to the "ARR APP" "COMPOSE FILE". The reason why I did it like this is to help trouble shoot, add, and delete apps from the stack as you see fit.
+This guide aims to provide you with step-by-step instructions on how to set up and configure a Docker Compose stack. Whether you're a beginner or have limited experience with GitHub and Docker, this guide will help you navigate through the process smoothly.
 
-In order to have this stack work proporly, there needs to be a set file structure. This is needed for how docker compose, and the apps pull and use things. (Hopefuly that's the write wording)
+### Understanding the Compose Files
+
+Within this stack, we have two essential files: the main `DOCKER COMPOSE` file and the associated `ARR APP` `COMPOSE FILE`. This clever design allows for seamless troubleshooting, easy app additions, and painless removals from the stack as per your requirements.
+
+### File Structure Requirements
+
+To ensure the stack functions flawlessly, it is crucial to maintain a specific file structure. This structure facilitates Docker Compose and the apps within the stack to effortlessly pull and utilize the required resources. By adhering to this standardized file structure, you can optimize the performance and stability of your Docker Compose stack.
+
+Feel free to delve deeper into the instructions and explore specific configurations. Should you need any further assistance, don't hesitate to ask. Happy Docker Compose stacking!
+
 
 This is how the directory should be set up. 
 
