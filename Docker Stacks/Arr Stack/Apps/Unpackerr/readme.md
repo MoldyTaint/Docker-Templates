@@ -14,14 +14,6 @@
 - **UN_RADARR_0_API_KEY:** Update with your Radarr API key.
 - **UN_RADARR_0_PATHS_0:** Update with your torrent path in Radarr.
 
-##### Folder Configuration
-
-- **UN_FOLDER_0_PATH:** Specify the path for additional folders, if required.
-- **UN_FOLDER_0_EXTRACT_PATH:** Specify the extraction path for folders.
-- **UN_FOLDER_0_DELETE_AFTER:** Set the duration after which the folder should be deleted.
-- **UN_FOLDER_0_DELETE_ORIGINAL:** Specify whether to delete the original folder.
-- **UN_FOLDER_0_DELETE_FILES:** Specify whether to delete files within the folder.
-- **UN_FOLDER_0_MOVE_BACK:** Specify whether to move the extracted files back to the original location.
 
 ### Security Options
 
