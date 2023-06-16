@@ -28,5 +28,5 @@ This is how the directory should be set up.
                 -> docker-compose.yaml
                 -> Configs
 ```
-At this step, we should have created a folder called "Media" somewhere on our ZPool, Harddisk, or wherever you would want these to live/stay. Test
+At this step, we should have created a folder called "Media" somewhere on our ZPool, Harddisk, or wherever you would want these to live/stay.
 
