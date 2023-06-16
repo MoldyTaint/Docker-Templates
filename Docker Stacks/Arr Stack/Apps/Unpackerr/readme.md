@@ -1,6 +1,6 @@
 #### Environment Variables
 
-- **user:** Specify the `USERIDHERE` and `GROUPIDHERE` that Unpackerr should run under. Alternatively, you can use the default value (`1001:1001`).
+- **user:** Specify the `USERIDHERE` and `GROUPIDHERE` that Unpackerr should run under.
 
 ##### Sonarr Configuration
 
